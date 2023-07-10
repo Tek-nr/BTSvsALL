@@ -1,10 +1,48 @@
-# BTS vs ALL
+# BTSvsALL
 
-In this project, our main focus is BTS, one of the most important representatives of kpop culture. As it is known, BTS is a very successful group that got out of the kpop industry and put its name to global work, and we carried out various analyzes in our project based on the success of this group.
+The BTSvsALL project focuses on analyzing the success and impact of BTS, one of the most influential representatives of K-pop culture. BTS has achieved global recognition, transcending the boundaries of the K-pop industry. This project conducts various analyses and comparisons based on the success of BTS.
 
-We divided our project into three parts. In the first part, we worked with a data set that we can analyze idols, girl groups and boy groups in order to get to know the general structure of the kpop industry. In this part of the study, we analyzed and visualized the technical characteristics of groups and solo singers (average number of members, release date, etc.). Then,  we can answer some questions with the data we analyze. For example, how many members does the group have? Where do idols com from outside of South Korea? Is the gender ratio equal? How many idols and groups have debuted over the years?
+## Table of Contents
 
-In the second part of the project, we performed our analyzes with the data sets we created via Spotify API.  After taking the data of the groups we determined, we first made comments about the average values of KPop songs, and secondly, we updated our dataset by transforming the BTS  data into a target cluster (if BTS is 1, not 0) and trained the models we created with this dataset. We evaluated the performance of the model we trained with different metrics such as Test Score, F1 Score and AUC, and checked whether our model had an overfitting. Then, we compared the performance values we obtained with each other and chose the model with the highest performance. In the next stage, we took the data of great artists who had great success on a global scale over the Spotify API and applied the same analysis and comparisons to them too.
+- [Project Description](#project-description)
+- [Installation](#installation)
+- [Datasets](#datasets)
+- [Analysis](#analysis)
+- [Contributing](#contributing)
+- [License](#license)
 
-In the final stage, we obtained the data of all the albums released by BTS and made various analyzes and visualizations with the help of text mining techniques.
+## Project Description
+
+The BTSvsALL project is divided into three main parts, aiming to provide insights into the K-pop industry and BTS's accomplishments.
+
+1. General Structure Analysis:
+   In this part, we analyze a dataset comprising idols, girl groups, and boy groups to understand the overall structure of the K-pop industry. We explore technical characteristics such as average group size, debut dates, etc. This analysis helps us answer questions such as the number of members in a group, the countries idols come from, gender ratios, and the number of debuts over the years.
+
+2. Spotify API Analysis:
+   In the second part, we use the Spotify API to gather data for various groups. We initially comment on the average values of K-pop songs based on this data. Additionally, we create a dataset with BTS as the target cluster (coded as 1) and other groups as non-target clusters (coded as 0). We train different models using this dataset and evaluate their performance using metrics such as Test Score, F1 Score, and AUC. We ensure our model does not overfit and compare the performance values to select the model with the highest performance. We also extend this analysis and comparisons to other globally successful artists by collecting their Spotify data.
+
+3. Album Analysis and Text Mining:
+   In the final stage, we gather data on all the albums released by BTS. Utilizing text mining techniques, we conduct various analyses and visualizations on this dataset to gain insights into the themes, sentiments, and overall content of BTS's albums.
+
+## Installation
+
+To use the BTSvsALL project, follow these steps:
+
+- Clone the repository:
+
+   ```shell
+   git clone https://github.com/Tek-nr/BTSvsALL.git
+
+## Datasets
+The project utilizes various datasets, including K-pop industry data, Spotify API data, and BTS album data. Please note that the datasets used in this project are not publicly available within the repository. You may need to source the relevant datasets separately and follow the data preprocessing steps provided in the project code.
+
+## Analysis
+The BTSvsALL project includes a range of analyses and visualizations to explore and compare the success and impact of BTS. The analyses performed cover general K-pop industry characteristics, Spotify data analysis, and album analysis using text mining techniques. The project provides insights into the structure of the K-pop industry, compares BTS's performance with other artists, and delves into the themes and sentiments expressed in BTS's albums.
+
+## Contributing
+Contributions to the BTSvsALL project are welcome! If you have any suggestions, feature requests, or improvements, please open an issue or submit a pull request.
+
+## License
+The BTSvsALL project is licensed under the MIT License. 
+Feel free to further customize and modify this template to match your specific project details and requirements.
 

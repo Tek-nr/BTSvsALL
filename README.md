@@ -34,7 +34,7 @@ To use the BTSvsALL project, follow these steps:
    git clone https://github.com/Tek-nr/BTSvsALL.git
 
 ## Datasets
-The project utilizes various datasets, including K-pop industry data, Spotify API data, and BTS album data. Please note that the datasets used in this project are not publicly available within the repository. You may need to source the relevant datasets separately and follow the data preprocessing steps provided in the project code.
+The project utilizes various datasets, including K-pop industry data, Spotify API data, and BTS album data. 
 
 ## Analysis
 The BTSvsALL project includes a range of analyses and visualizations to explore and compare the success and impact of BTS. The analyses performed cover general K-pop industry characteristics, Spotify data analysis, and album analysis using text mining techniques. The project provides insights into the structure of the K-pop industry, compares BTS's performance with other artists, and delves into the themes and sentiments expressed in BTS's albums.
